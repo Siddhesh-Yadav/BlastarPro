@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlastarPro</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div id="scoreCont">Welcome to BlastarPro-made by Siddhesh</div>
+    <div id="highScore"></div>
+    <img src="images/blast.jpg" alt="" class="blast">
+    <div class="gameOver"></div>
+    <div class="attackers">
+        <img src="images/invader.png" alt="invader" id="invader1" class="invader invaderAni">
+        <img src="images/invader.png" alt="invader" id="invader2" class="invader invaderAni">
+        <img src="images/invader.png" alt="invader" id="invader3" class="invader invaderAni">
+    </div>
+    <div id="controlArea">
+        <span id="defenderShip">
+            <img src="images/defender.png" alt="" id="defender">
+            <img src="images/canon.jpg" alt="" id="canon">
+        </span>
+    </div>
+    <div id="controls">
+        <button id="shoot" class="buttons" onclick="shoot()"><img src="images/left.png" class="butImg"></button>
+        <button id="left" class="buttons" onclick="left()"><img src="images/left.png" class="butImg"></button>
+        <button id="right"class="buttons" onclick="right()"><img src="images/left.png" class="butImg"></button>
+    </div>  
+</body>
+<script src="script.js"></script>
+
+</html>
