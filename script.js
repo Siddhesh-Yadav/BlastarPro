@@ -41,7 +41,7 @@ document.onkeydown = function (e) {
 
 function shoot() {  
   document.getElementById("shoot").disabled = true;
-  setTimeout(function(){document.getElementById("shoot").disabled = false;},5000);
+  setTimeout(function(){document.getElementById("shoot").disabled = false;},500);
   canon.style.display = "inline";
   canon.classList.add("fire");
   protonshot.play();
