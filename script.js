@@ -39,7 +39,9 @@ document.onkeydown = function (e) {
   }
 };
 
-function shoot() {
+function shoot() {  
+  document.getElementById("shoot").disabled = true;
+  setTimeout(function(){document.getElementById("shoot").disabled = false;},5000);
   canon.style.display = "inline";
   canon.classList.add("fire");
   protonshot.play();
